@@ -14,7 +14,8 @@ struct CashFlowApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView(viewModel: viewModel)
-            NewCategoryView(viewModel: viewModel) // Übergibt das ViewModel
+            //NewCategoryView(viewModel: viewModel) // Übergibt das ViewModel
+            LogoView()
         }
     }
 }
