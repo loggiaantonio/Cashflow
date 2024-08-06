@@ -11,6 +11,14 @@
 		234C44012C60F7240061DA30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44002C60F7240061DA30 /* ContentView.swift */; };
 		234C44032C60F7250061DA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234C44022C60F7250061DA30 /* Assets.xcassets */; };
 		234C44062C60F7250061DA30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234C44052C60F7250061DA30 /* Preview Assets.xcassets */; };
+		234C440D2C6213F30061DA30 /* NewCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C440C2C6213F30061DA30 /* NewCategoryView.swift */; };
+		234C440F2C62427E0061DA30 /* FinancialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C440E2C62427E0061DA30 /* FinancialViewModel.swift */; };
+		234C44112C62429E0061DA30 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44102C62429E0061DA30 /* LogoView.swift */; };
+		234C44142C6243240061DA30 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44132C6243240061DA30 /* Item.swift */; };
+		234C44162C62434D0061DA30 /* FinancialEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44152C62434D0061DA30 /* FinancialEntry.swift */; };
+		234C44182C62436B0061DA30 /* FinancialYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44172C62436B0061DA30 /* FinancialYear.swift */; };
+		234C441A2C6243990061DA30 /* YearDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C44192C6243990061DA30 /* YearDetailView.swift */; };
+		234C441C2C6244250061DA30 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C441B2C6244250061DA30 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		234C44002C60F7240061DA30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		234C44022C60F7250061DA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234C44052C60F7250061DA30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		234C440C2C6213F30061DA30 /* NewCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryView.swift; sourceTree = "<group>"; };
+		234C440E2C62427E0061DA30 /* FinancialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialViewModel.swift; sourceTree = "<group>"; };
+		234C44102C62429E0061DA30 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		234C44132C6243240061DA30 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		234C44152C62434D0061DA30 /* FinancialEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialEntry.swift; sourceTree = "<group>"; };
+		234C44172C62436B0061DA30 /* FinancialYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialYear.swift; sourceTree = "<group>"; };
+		234C44192C6243990061DA30 /* YearDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearDetailView.swift; sourceTree = "<group>"; };
+		234C441B2C6244250061DA30 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,15 @@
 		234C43FD2C60F7240061DA30 /* CashFlow */ = {
 			isa = PBXGroup;
 			children = (
+				234C44122C6243130061DA30 /* Model */,
 				234C43FE2C60F7240061DA30 /* CashFlowApp.swift */,
 				234C44002C60F7240061DA30 /* ContentView.swift */,
 				234C44022C60F7250061DA30 /* Assets.xcassets */,
 				234C44042C60F7250061DA30 /* Preview Content */,
+				234C440C2C6213F30061DA30 /* NewCategoryView.swift */,
+				234C440E2C62427E0061DA30 /* FinancialViewModel.swift */,
+				234C44102C62429E0061DA30 /* LogoView.swift */,
+				234C44192C6243990061DA30 /* YearDetailView.swift */,
 			);
 			path = CashFlow;
 			sourceTree = "<group>";
@@ -65,6 +86,17 @@
 				234C44052C60F7250061DA30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		234C44122C6243130061DA30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				234C44132C6243240061DA30 /* Item.swift */,
+				234C44152C62434D0061DA30 /* FinancialEntry.swift */,
+				234C44172C62436B0061DA30 /* FinancialYear.swift */,
+				234C441B2C6244250061DA30 /* DataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234C44112C62429E0061DA30 /* LogoView.swift in Sources */,
+				234C441C2C6244250061DA30 /* DataManager.swift in Sources */,
+				234C44162C62434D0061DA30 /* FinancialEntry.swift in Sources */,
+				234C440F2C62427E0061DA30 /* FinancialViewModel.swift in Sources */,
 				234C44012C60F7240061DA30 /* ContentView.swift in Sources */,
+				234C44182C62436B0061DA30 /* FinancialYear.swift in Sources */,
 				234C43FF2C60F7240061DA30 /* CashFlowApp.swift in Sources */,
+				234C441A2C6243990061DA30 /* YearDetailView.swift in Sources */,
+				234C44142C6243240061DA30 /* Item.swift in Sources */,
+				234C440D2C6213F30061DA30 /* NewCategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
